@@ -3,16 +3,6 @@ server:
 spring:
   application:
     name: wf-mp
-  mvc:
-    pathmatch:
-      # Springfox使用的路径匹配是基于AntPathMatcher的，而Spring Boot 2.6.X使用的是PathPatternMatcher
-      matching-strategy: ant_path_matcher
-  knife4j:
-    enable: true #开启增强配置
-    basic: #基本的登录认证
-      enable: true
-      username: admin
-      password: 123456
   datasource:
     url: jdbc:mysql://localhost:3306/mp_db?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&allowMultiQueries=true
 
@@ -28,4 +18,21 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: classpath*:mapper/*.xml
 
-
+knife4j:
+  enable: true
+  openapi:
+    title: 接口文档
+    description: "接口文档生成"
+    email: ""
+    concat: admin
+    url: https://docs.xiaominfo.com
+    version: v4.0
+    license: Apache 2.0
+    license-url: https://stackoverflow.com/
+    terms-of-service-url: https://stackoverflow.com/
+    group:
+      test1:
+        group-name: 分组名称
+        api-rule: package
+        api-rule-resources:
+          - com.wf.mp
