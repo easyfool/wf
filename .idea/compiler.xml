@@ -7,16 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wf-eureka-server-8761" />
-        <module name="wf-domain" />
-        <module name="wf-cloud-feign" />
         <module name="wf-util" />
-        <module name="wf-payment-8002" />
-        <module name="wf-payment-8001" />
         <module name="wf-springboot" />
         <module name="wf-order-9001" />
         <module name="wf-netty" />
+        <module name="wf-eureka-server-8761" />
+        <module name="wf-domain" />
+        <module name="wf-cloud-feign" />
+        <module name="wf-payment-8002" />
+        <module name="wf-payment-8001" />
         <module name="wf-mp" />
+        <module name="wf-validation" />
         <module name="wf-cloud-common" />
         <module name="wf-config" />
       </profile>
