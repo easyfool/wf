@@ -11,6 +11,7 @@
         <module name="wf-springboot" />
         <module name="wf-order-9001" />
         <module name="wf-netty" />
+        <module name="wf-trace" />
         <module name="wf-eureka-server-8761" />
         <module name="wf-domain" />
         <module name="wf-cloud-feign" />

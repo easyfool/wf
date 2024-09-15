@@ -37,6 +37,8 @@
     <file url="file://$PROJECT_DIR$/wf-springcloud/wf-payment-8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springcloud/wf-payment-8002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springcloud/wf-payment-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-trace/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-trace/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-util/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-validation/src/main/java" charset="UTF-8" />
