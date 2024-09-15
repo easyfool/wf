@@ -1,0 +1,15 @@
+server:
+  port: 9001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: ORDER-SERVER
+
+feign:
+  client:
+    config:
+      default: # 针对某个微服务的配置
+        loggerLevel: FULL #  日志级别

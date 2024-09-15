@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hello-world/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-world/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/helloworld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/helloworld/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-mp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-mp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-netty/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-pgp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-pgp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-cloud-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-cloud-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-cloud-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-cloud-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-eureka-server-8761/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-eureka-server-8761/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-mall-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-mall-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-order-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-order-9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-order-9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-order-9002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-payment-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-payment-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-payment-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springcloud/wf-payment-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-util/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
