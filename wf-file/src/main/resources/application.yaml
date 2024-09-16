@@ -1,0 +1,30 @@
+server:
+  port: 8080
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1MB
+      max-request-size: 10MB
+file:
+  upload:
+    dir: E:/test/upload
+
+knife4j:
+  enable: true
+  openapi:
+    title: 接口文档
+    description: "接口文档生成"
+    email: ""
+    concat: admin
+    url: https://docs.xiaominfo.com
+    version: v4.0
+    license: Apache 2.0
+    license-url: https://stackoverflow.com/
+    terms-of-service-url: https://stackoverflow.com/
+    group:
+      test1:
+        group-name: 分组名称
+        api-rule: package
+        api-rule-resources:
+          - com.wf.file

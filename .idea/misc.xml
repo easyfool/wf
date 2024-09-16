@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/wf-config/pom.xml" />
         <option value="$PROJECT_DIR$/wf-validation/pom.xml" />
         <option value="$PROJECT_DIR$/wf-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/wf-uploaddownload/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

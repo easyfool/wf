@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wf-util" />
+        <module name="wf-file" />
         <module name="wf-springboot" />
         <module name="wf-order-9001" />
         <module name="wf-netty" />
