@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/wf-domain/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-file/src/main/webapps" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-mp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-mp/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-netty/src/main/java" charset="UTF-8" />

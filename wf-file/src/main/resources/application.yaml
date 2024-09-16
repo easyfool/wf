@@ -6,6 +6,10 @@ spring:
       enabled: true
       max-file-size: 1MB
       max-request-size: 10MB
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
 file:
   upload:
     dir: E:/test/upload
@@ -28,3 +32,4 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.wf.file
+

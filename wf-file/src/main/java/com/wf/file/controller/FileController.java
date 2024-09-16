@@ -68,6 +68,7 @@ public class FileController {
     }
 
     @ApiOperation("文件下载")
+    @ResponseBody
     @GetMapping("/download")
     public String fileDownload(HttpServletResponse response){
 
@@ -76,6 +77,11 @@ public class FileController {
         response.setContentType("application/octet-stream");
         response.setCharacterEncoding(StandardCharsets.UTF_8.name());
         response.setContentLength((int)file.length());
+//        ContentDisposition disposition = ContentDisposition.builder("attachment")
+//                .filename(new String(URLEncoder.encode(fileName, "UTF-8")
+//                        .getBytes(StandardCharsets.UTF_8), StandardCharsets.ISO_8859_1)).build();
+//        response.addHeader("Content-Disposition", disposition.toString());
+
         response.addHeader("Content-Disposition", "attachment;filename=" + System.currentTimeMillis() + FileNameUtil.getSuffix(file));
         ServletOutputStream outputStream = null;
         try {
