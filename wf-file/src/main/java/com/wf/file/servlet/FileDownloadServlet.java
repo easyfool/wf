@@ -41,7 +41,7 @@ public class FileDownloadServlet extends HttpServlet {
         //如果文件名称中含有中文，需要特殊处理，否则是乱码
         if (req.getHeader("User-Agent").contains("Firefox")) {
             //火狐浏览器使用base64编码和解码
-            resp.setHeader("Content-Disposition", "attachment;filename=?UTF-8?B?" + new Base64Encoder().encode(fileName.getBytes(StandardCharsets.UTF_8)));
+            resp.setHeader("Content-Disposition", "attachment;filename=?UTF-8?B?" + Base64Encoder.encode(fileName.getBytes(StandardCharsets.UTF_8)));
         } else {
             //IE+chrome使用urlencoder 和urldecoder来编码和解码
             resp.setHeader("Content-Disposition", "attachment;filename=" + URLEncoder.encode(fileName, StandardCharsets.UTF_8.name()));
