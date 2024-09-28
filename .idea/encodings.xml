@@ -18,8 +18,11 @@
     <file url="file://$PROJECT_DIR$/wf-netty/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-pgp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-pgp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-refis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-refis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-springboot/wf-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springcloud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springcloud/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springcloud/wf-cloud-common/src/main/java" charset="UTF-8" />

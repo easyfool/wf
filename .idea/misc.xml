@@ -23,11 +23,13 @@
         <option value="$PROJECT_DIR$/wf-trace/pom.xml" />
         <option value="$PROJECT_DIR$/wf-uploaddownload/pom.xml" />
         <option value="$PROJECT_DIR$/wf-file/pom.xml" />
+        <option value="$PROJECT_DIR$/wf-refis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/wf-pgp/pom.xml" />
+        <option value="$PROJECT_DIR$/wf-springboot/wf-redis/pom.xml" />
         <option value="$PROJECT_DIR$/wf-springcloud/wf-mall-common/pom.xml" />
         <option value="$PROJECT_DIR$/wf-springcloud/wf-order-9002/pom.xml" />
       </set>

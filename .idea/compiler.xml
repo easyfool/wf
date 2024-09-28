@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="wf-util" />
         <module name="wf-file" />
-        <module name="wf-springboot" />
         <module name="wf-order-9001" />
         <module name="wf-netty" />
         <module name="wf-trace" />
@@ -18,6 +17,7 @@
         <module name="wf-cloud-feign" />
         <module name="wf-payment-8002" />
         <module name="wf-payment-8001" />
+        <module name="wf-refis" />
         <module name="wf-mp" />
         <module name="wf-validation" />
         <module name="wf-cloud-common" />
@@ -35,7 +35,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="wf-redis" options="-parameters" />
-      <module name="wf-springboot" options="-parameters" />
+      <module name="wf-springboot" options="" />
     </option>
   </component>
 </project>
