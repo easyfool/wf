@@ -24,6 +24,8 @@
         <option value="$PROJECT_DIR$/wf-uploaddownload/pom.xml" />
         <option value="$PROJECT_DIR$/wf-file/pom.xml" />
         <option value="$PROJECT_DIR$/wf-refis/pom.xml" />
+        <option value="$PROJECT_DIR$/dbpm-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/wf-sftp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

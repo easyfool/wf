@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dbpm-spring-boot-starter/dbpm-spring-boot-starter-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dbpm-spring-boot-starter/dbpm-spring-boot-starter-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dbpm-spring-boot-starter/dbpm-spring-boot-starter-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dbpm-spring-boot-starter/dbpm-spring-boot-starter-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dbpm-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dbpm-spring-boot-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-world/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-world/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/helloworld/src/main/java" charset="UTF-8" />
@@ -18,8 +24,10 @@
     <file url="file://$PROJECT_DIR$/wf-netty/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-pgp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-pgp/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wf-refis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wf-refis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-sftp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wf-sftp/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springboot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wf-springboot/wf-redis/src/main/java" charset="UTF-8" />

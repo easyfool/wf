@@ -1,0 +1,4 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.wf.DbpmEnvironmentPostProcessor
+org.springframework.context.ApplicationContextInitializer=\
+  com.wf.DbpmInitialization

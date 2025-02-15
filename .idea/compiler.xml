@@ -10,14 +10,18 @@
         <module name="wf-util" />
         <module name="wf-file" />
         <module name="wf-order-9001" />
+        <module name="wf-springboot" />
         <module name="wf-netty" />
         <module name="wf-trace" />
+        <module name="wf-sftp" />
         <module name="wf-eureka-server-8761" />
         <module name="wf-domain" />
+        <module name="dbpm-spring-boot-starter-app" />
         <module name="wf-cloud-feign" />
+        <module name="dbpm-spring-boot-starter-core" />
         <module name="wf-payment-8002" />
         <module name="wf-payment-8001" />
-        <module name="wf-refis" />
+        <module name="wf-redis" />
         <module name="wf-mp" />
         <module name="wf-validation" />
         <module name="wf-cloud-common" />
@@ -29,12 +33,11 @@
       <module name="wf-mall-common" target="1.8" />
       <module name="wf-order-9002" target="1.8" />
       <module name="wf-pgp" target="1.8" />
-      <module name="wf-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="wf-redis" options="-parameters" />
+      <module name="wf-redis" options="" />
       <module name="wf-springboot" options="" />
     </option>
   </component>

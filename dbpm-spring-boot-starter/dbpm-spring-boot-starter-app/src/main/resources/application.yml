@@ -1,0 +1,19 @@
+dbpm:
+  appIp: 123
+  masterServers:
+    total: 10
+    detail:
+      - 11:12
+      - 21:22
+      - 31:32
+  slaveServers:
+    total: 3
+    detail:
+    - 11:12
+    - 21:22
+    - 31:32
+  replacements:
+    total: 10
+    detail:
+      - a:a1,b:b1,c:c1
+      - a:a2,b:b2,c:c2

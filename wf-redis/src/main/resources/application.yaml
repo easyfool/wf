@@ -1,0 +1,52 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: wf-redis
+  datasource:
+    url: jdbc:mysql://localhost:3306/hmdp_db?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&allowMultiQueries=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: hmdp
+    password: 123456
+  redis:
+    host: 192.168.127.138
+    port: 6379
+    password: 000000
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 8
+        min-idle: 1
+        time-between-eviction-runs: 10s
+  jackson:
+    default-property-inclusion: non_null
+logging:
+  level:
+    com.wf.redis: debug
+
+mybatis-plus:
+  type-aliases-package: com.wf.redis.domain.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*.xml
+
+knife4j:
+  enable: true
+  openapi:
+    title: 接口文档
+    description: "接口文档生成"
+    email: ""
+    concat: admin
+    url: https://docs.xiaominfo.com
+    version: v4.0
+    license: Apache 2.0
+    license-url: https://stackoverflow.com/
+    terms-of-service-url: https://stackoverflow.com/
+    group:
+      test1:
+        group-name: 分组名称
+        api-rule: package
+        api-rule-resources:
+          - com.wf.redis
