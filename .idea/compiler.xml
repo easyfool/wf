@@ -26,13 +26,13 @@
         <module name="wf-validation" />
         <module name="wf-cloud-common" />
         <module name="wf-config" />
+        <module name="wf-pgp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hello-world" target="1.8" />
       <module name="wf-mall-common" target="1.8" />
       <module name="wf-order-9002" target="1.8" />
-      <module name="wf-pgp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
